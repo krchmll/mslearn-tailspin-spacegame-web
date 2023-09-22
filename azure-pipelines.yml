@@ -1,7 +1,3 @@
 pool: MyAgentPool
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    arguments: '--configuration $(buildConfiguration)'
 steps:
 - bash: echo hello world
